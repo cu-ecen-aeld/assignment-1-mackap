@@ -13,4 +13,6 @@ dirPath="$(dirname "$writefile")"
 
 mkdir -p "$dirPath"
 
+touch "$writefile"
+
 echo "$writestr" > "$writefile"
